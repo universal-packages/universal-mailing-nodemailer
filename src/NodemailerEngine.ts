@@ -1,5 +1,6 @@
 import { EngineInterface, SendOptions } from '@universal-packages/mailing'
 import nodemailer, { Transporter } from 'nodemailer'
+
 import { NodemailerEngineOptions } from './NodemailerEngine.types'
 
 export default class NodemailerEngine implements EngineInterface {

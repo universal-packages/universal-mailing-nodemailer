@@ -1,5 +1,6 @@
-import nodemailer from 'nodemailer'
 import * as aws from '@aws-sdk/client-ses'
+import nodemailer from 'nodemailer'
+
 import { NodemailerEngine } from '../src'
 import { sendMock } from './__mocks__/nodemailer'
 
