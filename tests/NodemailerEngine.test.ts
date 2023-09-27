@@ -4,7 +4,7 @@ import nodemailer from 'nodemailer'
 import { NodemailerEngine } from '../src'
 import { sendMock } from './__mocks__/nodemailer'
 
-describe('NodemailerEngine', (): void => {
+describe(NodemailerEngine, (): void => {
   it('It uses smtp by default', async (): Promise<void> => {
     const engine = new NodemailerEngine({ options: { host: 'yes' } })
 
