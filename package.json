@@ -21,7 +21,7 @@
   "peerDependencies": {
     "@aws-sdk/client-ses": "^3.267.0",
     "@aws-sdk/credential-provider-node": "^3.267.0",
-    "@universal-packages/mailing": "^1.0.0"
+    "@universal-packages/mailing": "^1.1.8"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
