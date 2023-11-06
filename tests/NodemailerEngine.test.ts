@@ -33,7 +33,7 @@ describe(NodemailerEngine, (): void => {
   })
 
   it('creates a special transporter for ses', async (): Promise<void> => {
-    const engine = new NodemailerEngine({ transport: 'ses', options: { apiVersion: '2010-12-01', region: 'us-east-1' } })
+    const _engine = new NodemailerEngine({ transport: 'ses', options: { apiVersion: '2010-12-01', region: 'us-east-1' } })
 
     expect(nodemailer.createTransport).toHaveBeenCalledWith(expect.objectContaining({ SES: { ses: expect.any(aws.SES), aws } }))
   })
